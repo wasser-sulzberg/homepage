@@ -284,8 +284,13 @@ nav a:hover {
   background: var(--color-bg-light);
 }
 
-.fee-table td:last-child {
+/* Wertespalten rechtsbündig, Header inklusive */
+.fee-table th:not(:first-child),
+.fee-table td:not(:first-child) {
   text-align: right;
+}
+
+.fee-table td:not(:first-child) {
   font-weight: 600;
 }
 
