@@ -373,6 +373,8 @@ nav a:hover {
 .contact-card a {
   color: var(--color-accent);
   text-decoration: none;
+  /* lange E-Mail-Adressen sprengen sonst die schmalen Karten */
+  overflow-wrap: anywhere;
 }
 
 .contact-card a:hover {

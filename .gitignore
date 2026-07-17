@@ -1,1 +1,6 @@
 .claude/settings.local.json
+
+# Rohmaterial Thal: Originalfoto und Einzelseiten-Scans.
+# Verwendet werden die daraus erzeugten Hochbehaelter_Thal.jpg und Untersuchungsbericht_Thal_2026.pdf.
+assets/Thal/IMG_*.jpg
+assets/Thal/prüfung+wasser*.pdf
